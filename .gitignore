@@ -1,12 +1,29 @@
-# Файлы и папки операционной системы
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json
+
+node_modules
 .DS_Store
-Thumbs.db
+dist
+dist-ssr
+coverage
+*.local
 
-# Файлы редактора
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
-*.sublime*
-.vscode
-
-# Вспомогательные файлы
-*.log*
-node_modules/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
