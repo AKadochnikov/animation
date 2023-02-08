@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif, "Arial Black";
+    min-height: 100vh;
+    margin: 0;
+    background-color: #282828;
+    color: #00897b;
+}
+
+#app {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
