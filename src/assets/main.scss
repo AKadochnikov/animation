@@ -1,19 +1,32 @@
+@import "vars";
 body {
     font-family: sans-serif, "Arial Black";
     min-height: 100vh;
     margin: 0;
-    background-color: #282828;
-    color: #00897b;
+    background-color: $bgColorPrimary;
+    color: $textColor;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(1px 1px 1px 1px);
 }
 
 #app {
-    max-width: 1400px;
-    margin: 0 auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+header {
+    border-bottom: 1px solid $buttonColor;
+}
+
 main {
     flex-grow: 1;
+    max-width: 1400px;
+    margin: 0 auto;
 }
