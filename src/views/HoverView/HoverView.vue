@@ -1,6 +1,6 @@
 <template>
   <div class="grid-container">
-    <h2 class="fluid">Ссылки соцсетей</h2>
+    <h2 class="fluid">Анимации по Hover и Focus</h2>
     <div class="container container--6">
       <h3 class="fluid">Hover/Focus v1</h3>
       <hover-version1/>
