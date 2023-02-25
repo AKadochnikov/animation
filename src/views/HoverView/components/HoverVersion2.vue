@@ -137,7 +137,8 @@
     }
   }
 
-  &:hover {
+  &:hover,
+  &:focus-within {
     &:before {
       visibility: visible;
       opacity: 1;

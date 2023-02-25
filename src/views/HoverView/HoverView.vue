@@ -9,6 +9,7 @@
     <div class="container-9">
       <h3 class="fluid">Hover/Focus v2</h3>
       <hover-version2/>
+      <span class="fluid">путь: src/views/HoverView/components/HoverVersion2.vue</span>
     </div>
   </div>
 </template>
