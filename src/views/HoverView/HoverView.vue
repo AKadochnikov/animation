@@ -1,20 +1,25 @@
 <template>
   <div class="grid-container">
     <h2 class="fluid">Ссылки соцсетей</h2>
-    <div class="container container--3">
+    <div class="container container--6">
       <h3 class="fluid">Hover/Focus v1</h3>
       <hover-version1/>
       <span class="fluid">путь: src/views/HoverView/components/HoverVersion1.vue</span>
     </div>
-    <div class="container container--9">
+    <div class="container container--3">
       <h3 class="fluid">Hover/Focus v2</h3>
-      <hover-version2/>
+      <hover-version2 />
       <span class="fluid">путь: src/views/HoverView/components/HoverVersion2.vue</span>
     </div>
-    <div class="container container--10">
+    <div class="container container--5">
       <h3 class="fluid">Hover/Focus v3</h3>
-      <hover-version3/>
+      <hover-version3 />
       <span class="fluid">путь: src/views/HoverView/components/HoverVersion3.vue</span>
+    </div>
+    <div class="container container--4">
+      <h3 class="fluid">Hover/Focus v4</h3>
+      <hover-version4 />
+      <span class="fluid">путь: src/views/HoverView/components/HoverVersion4.vue</span>
     </div>
   </div>
 </template>
@@ -23,6 +28,7 @@
 import HoverVersion1 from "@/views/HoverView/components/HoverVersion1.vue";
 import HoverVersion2 from "@/views/HoverView/components/HoverVersion2.vue";
 import HoverVersion3 from "@/views/HoverView/components/HoverVersion3.vue";
+import HoverVersion4 from "@/views/HoverView/components/HoverVersion4.vue";
 </script>
 
 <style lang="scss" scoped>
@@ -46,27 +52,52 @@ import HoverVersion3 from "@/views/HoverView/components/HoverVersion3.vue";
   grid-template-rows: auto;
   grid-gap: 24px;
 
+  &--1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  &--2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   &--3 {
-    grid-column: span 3;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &--5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  &--6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  &--7 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  &--8 {
+    grid-template-columns: repeat(8, 1fr);
   }
 
   &--9 {
-    grid-column: span 9;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(9, 1fr);
   }
 
   &--10 {
-    grid-column: span 10;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
   }
 
-  &--3,
-  &--9,
-  &--10 {
-    @media (max-width: 1500px) {
-      grid-column: span 12;
-    }
+  &--11 {
+    grid-template-columns: repeat(11, 1fr);
+  }
+
+  &--12 {
+    grid-template-columns: repeat(12, 1fr);
   }
 }
 </style>
