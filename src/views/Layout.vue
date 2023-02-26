@@ -11,11 +11,7 @@
   </main>
 </template>
 
-<script>
-export default {
-  name: "AppLayout",
-};
-</script>
+<script setup lang="ts"></script>
 
 <style scoped lang="scss">
 @import "/src/assets/vars";

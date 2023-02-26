@@ -9,4 +9,4 @@ import AppLayout from "@/views/Layout.vue";
   </app-layout>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>

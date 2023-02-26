@@ -40,6 +40,8 @@
   </a>
 </template>
 
+<script setup lang="ts"></script>
+
 <style scoped lang="scss">
 .btn {
   font-family: inherit;

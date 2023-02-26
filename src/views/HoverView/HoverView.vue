@@ -34,7 +34,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import HoverVersion1 from "@/views/HoverView/components/HoverVersion1.vue";
 import HoverVersion2 from "@/views/HoverView/components/HoverVersion2.vue";
 import HoverVersion3 from "@/views/HoverView/components/HoverVersion3.vue";

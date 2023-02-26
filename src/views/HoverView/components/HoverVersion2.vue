@@ -30,7 +30,7 @@
   </article>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import shoesCard1 from "@/statics/img/shoes-card-1.png";
 import shoesCard2 from "@/statics/img/shoes-card-2.png";
 import shoesCard3 from "@/statics/img/shoes-card-3.png";
