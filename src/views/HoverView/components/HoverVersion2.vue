@@ -1,7 +1,7 @@
 <template>
   <article class="shoes__card shoes-card" data-brand="Converse">
     <div class="shoes-card__img shoes-card__img--gold">
-      <img src="src/assets/img/shoes-card-1.png" width="322" height="274" alt="Кеды">
+      <img :src="shoesCard1" width="322" height="274" alt="Кеды">
     </div>
     <div class="shoes-card__content">
       <button class="shoes-card__buy-btn" type="button">Купить</button>
@@ -9,7 +9,7 @@
   </article>
   <article class="shoes__card shoes-card" data-brand="Puma">
     <div class="shoes-card__img shoes-card__img--green">
-      <img src="src/assets/img/shoes-card-2.png" width="322" height="274" alt="Кеды">
+      <img :src="shoesCard2" width="322" height="274" alt="Кеды">
     </div>
     <div class="shoes-card__content">
       <button class="shoes-card__buy-btn" type="button">Купить</button>
@@ -18,7 +18,7 @@
   <article class="shoes__card shoes-card" data-brand="DC">
     <div class="shoes-card__img shoes-card__img--red">
       <img
-        src="src/assets/img/shoes-card-3.png"
+        :src="shoesCard3"
         width="322"
         height="274"
         alt="Кеды"
@@ -30,7 +30,11 @@
   </article>
 </template>
 
-<script setup></script>
+<script setup>
+import shoesCard1 from "@/statics/img/shoes-card-1.png";
+import shoesCard2 from "@/statics/img/shoes-card-2.png";
+import shoesCard3 from "@/statics/img/shoes-card-3.png";
+</script>
 
 <style scoped lang="scss">
 .shoes-card {
