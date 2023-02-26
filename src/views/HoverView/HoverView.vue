@@ -16,7 +16,7 @@
       <hover-version3 />
       <span class="fluid">путь: src/views/HoverView/components/HoverVersion3.vue</span>
     </div>
-    <div class="container container--4">
+    <div class="container container--6">
       <h3 class="fluid">Hover/Focus v4</h3>
       <hover-version4 />
       <span class="fluid">путь: src/views/HoverView/components/HoverVersion4.vue</span>
@@ -25,6 +25,11 @@
       <h3 class="fluid">Hover/Focus v5</h3>
       <hover-version5 />
       <span class="fluid">путь: src/views/HoverView/components/HoverVersion5.vue</span>
+    </div>
+    <div class="container container--12">
+      <h3 class="fluid">Hover/Focus v6</h3>
+      <hover-version6 />
+      <span class="fluid">путь: src/views/HoverView/components/HoverVersion6.vue</span>
     </div>
   </div>
 </template>
@@ -35,6 +40,7 @@ import HoverVersion2 from "@/views/HoverView/components/HoverVersion2.vue";
 import HoverVersion3 from "@/views/HoverView/components/HoverVersion3.vue";
 import HoverVersion4 from "@/views/HoverView/components/HoverVersion4.vue";
 import HoverVersion5 from "@/views/HoverView/components/HoverVersion5.vue";
+import HoverVersion6 from "@/views/HoverView/components/HoverVersion6.vue";
 </script>
 
 <style lang="scss" scoped>
