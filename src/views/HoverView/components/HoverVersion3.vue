@@ -1,37 +1,35 @@
 <template>
-  <p class="link-wrapper">
-    <a href="#" class="link link--1">link item</a>
-  </p>
+  <div class="link-wrapper">
+    <a href="#" class="link link--1">Lorem ipsum dolor sit amet, consectetur.</a>
+  </div>
 
-  <p class="link-wrapper">
-    <a href="#" class="link link--2">link item</a>
-  </p>
+  <div class="link-wrapper">
+    <a href="#" class="link link--2">Lorem ipsum dolor sit amet, consectetur.</a>
+  </div>
 
-  <p class="link-wrapper">
-    <a href="#" class="link link--3">
-      <span>hover item</span>
-      <span>link item</span>
-    </a>
-  </p>
-
-  <p class="link-wrapper">
+  <div class="link-wrapper">
     <a href="#" class="link link--4">
-      link item
+      Lorem ipsum dolor sit amet, consectetur.
     </a>
-  </p>
+  </div>
 
-  <p class="link-wrapper">
-    <a href="#" class="link link--5">link item</a>
-  </p>
+  <div class="link-wrapper">
+    <a href="#" class="link link--5">Lorem ipsum dolor sit amet, consectetur.</a>
+  </div>
 </template>
 
 <script setup lang="ts"></script>
 
 <style scoped lang="scss">
+.warning {
+  color: coral;
+}
+
 .link-wrapper {
   display: flex;
   align-items: center;
 }
+
 .link {
   font-family: inherit;
   font-size: inherit;
@@ -108,55 +106,10 @@
     }
   }
 
-  &--3 {
-    color: #cd4436;
-    padding: 0 4px;
-    height: 1em;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-
-    span {
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-      transition-property: transform;
-      transition-duration: 300ms;
-      transition-timing-function: ease;
-
-      &:nth-of-type(1) {
-        transform: translateY(100%);
-      }
-
-      &:nth-of-type(2) {
-        transform: translateY(0);
-      }
-    }
-
-    &:hover,
-    &:focus {
-      span {
-        &:nth-of-type(1) {
-          transform: translateY(0);
-        }
-
-        &:nth-of-type(2) {
-          transform: translateY(-100%);
-        }
-      }
-    }
-  }
-
   &--4 {
     color: #435a6b;
-    padding: 0 20px;
-    height: 50px;
-    line-height: 50px;
+    padding: 8px 20px;
+    line-height: 1.4;
 
     &:before,
     &:after {

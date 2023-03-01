@@ -1,6 +1,6 @@
 <template>
-  <button class="btn btn--1" type="button">transform</button>
-  <button class="btn btn--2" type="button">transform</button>
+  <button class="btn btn--1" type="button">Lorem ipsum dolor sit amet, consectetur.</button>
+  <button class="btn btn--2" type="button">Lorem ipsum dolor sit amet, consectetur.</button>
 </template>
 
 <script setup lang="ts"></script>

@@ -1,23 +1,18 @@
 <template>
   <button class="button button--1">
-    <span>Lorem ipsum</span>
-    <span>Lorem ipsum</span>
+    <span>Lorem ipsum dolor sit amet, consectetur.</span>
+    <span>Lorem ipsum dolor sit amet, consectetur.</span>
   </button>
 
-  <button class="button button--2">Lorem ipsum</button>
+  <button class="button button--2">Lorem ipsum dolor sit amet, consectetur.</button>
 
   <button class="button button--3">
-    <span>Lorem ipsum</span>
+    <span>Lorem ipsum dolor sit amet, consectetur.</span>
   </button>
 
-  <button class="button button--4">Lorem ipsum</button>
+  <button class="button button--4">Lorem ipsum dolor sit amet, consectetur.</button>
 
-  <button class="button button--5">Lorem ipsum</button>
-
-  <button class="button button--6">
-    <span>Lorem ipsum</span>
-    <span />
-  </button>
+  <button class="button button--5">Lorem ipsum dolor sit amet, consectetur.</button>
 </template>
 
 <script setup lang="ts"></script>
@@ -244,52 +239,6 @@
       border-color: #f58500;
       &:after {
         transform: translateY(-50%) rotate(45deg) scale(1.3);
-      }
-    }
-  }
-
-  &--6 {
-    padding: 20px 40px;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 8px;
-    overflow: hidden;
-
-    span {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: transform 300ms ease;
-
-      &:nth-of-type(1) {
-        top: 0;
-        left: 0;
-      }
-
-      &:nth-of-type(2) {
-        top: 0;
-        right: 0;
-        width: 40px;
-        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='14' viewBox='0 0 8 14' fill='none'%3E%3Cpath d='M1 13L7 7L1 1' stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-        background-repeat: no-repeat;
-        background-position: center;
-        transform: translateX(100%);
-      }
-    }
-
-    &:hover,
-    &:focus {
-      span {
-        &:nth-of-type(1) {
-          transform: translateX(-10%);
-        }
-
-        &:nth-of-type(2) {
-          transform: translateX(-10%);
-        }
       }
     }
   }

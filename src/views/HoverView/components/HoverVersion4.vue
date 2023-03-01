@@ -1,13 +1,13 @@
 <template>
-  <button class="btn btn--1" type="button">transform</button>
-  <button class="btn btn--2" type="button">transform</button>
+  <button class="btn btn--1" type="button">Lorem ipsum dolor sit amet, consectetur.</button>
+  <button class="btn btn--2" type="button">Lorem ipsum dolor sit amet, consectetur.</button>
   <button class="btn btn--3" type="button">
-    <span>yes</span>
-    <span>transform</span>
+    <span>Lorem ipsum dolor sit amet, consectetur.</span>
+    <span>Lorem ipsum dolor sit amet, consectetur.</span>
   </button>
   <button class="btn btn--4" type="button">
     <span>yes</span>
-    <span>transform</span>
+    <span>Lorem ipsum dolor sit amet, consectetur.</span>
   </button>
 </template>
 
